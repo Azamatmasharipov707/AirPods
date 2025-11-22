@@ -110,3 +110,14 @@ body {
     align-items: center;
     column-gap: 100px;
 }
+
+.model-3 .container {
+    display: flex;
+    align-items: center;
+    column-gap: 88px;
+}
+
+.model-3__text {
+    font-size: 18px;
+    font-weight: 700;
+}
