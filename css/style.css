@@ -91,8 +91,9 @@ body {
 
 /* ======================================= Model start ======================================== */
 
-.model {
+.model, .model-3 {
     background: #121212;
+    padding: 40px 0;
 }
 
 .model .container {
@@ -120,4 +121,25 @@ body {
 .model-3__text {
     font-size: 18px;
     font-weight: 700;
+    position: relative;
+}
+
+.model-3__text:first-of-type::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background: #c4c4c4;
+    right: -25%;
+    bottom: 50%;
+}
+
+.model-3__text:last-of-type::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background: #c4c4c4;
+    left: -25%;
+    bottom: 50%;
 }
